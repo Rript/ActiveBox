@@ -1,9 +1,11 @@
 @import "../css/reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap');
 
 body {
     font-family: "Raleway", sans-serif;
     background: gray;
+    color: black;
 }
 /*HEADER */
 
@@ -124,4 +126,205 @@ body {
 
 .works-img {
     width: 100%;
+}
+
+/*pg2*/
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Carousel */
+
+.carousel-section, .footer{
+    max-width: 1511px;
+    margin: 0 auto;
+}
+
+.carousel-slide{
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-background{
+    display: flex;
+    background: #5C3249;
+    align-items: center;
+    justify-content: center;
+    width: 51%;
+}
+
+.carousel-images{
+    width: 49%;
+}
+
+.cite{
+    font-family: Cardo;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 48.74px;
+    color: #fff;
+    width: 60%;
+    text-transform: capitalize;
+}
+
+.cite-author{
+    display: block;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 15.26px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.pagination{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    margin-top: 31px;
+}
+
+.progress-dot{
+    border: 1px solid #7E5D6F;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+}
+
+.active-dot, .progress-dot:hover{
+    background: #7E5D6F;
+}
+
+.progress-dot:active{
+    background: #5C3249;
+}
+
+/* download */
+
+.download-section{
+    display: flex;
+    align-items: center;
+    margin-top: 114px;
+    margin-bottom: 114px;
+}
+
+.download-title{
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35.22px;
+    text-align: center;
+}
+
+.download-description{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.13px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.download-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.download-btn button{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28.18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    background:#FF4343;
+    padding: 18px 25px;
+    margin-top: 47px;
+}
+
+.download-btn button:hover{
+    background: #E71414;
+}
+
+.download-btn button:active{
+    box-shadow: 4px 4px 30px 0px #FF4343;
+    background: #FF4343;
+}
+
+/* footer */
+
+.footer-content{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background: #353C65;
+    height: 340px;
+}
+
+.footer-content .container{
+    display: flex;
+    flex-direction: row
+}
+
+.location-title , .social-title, .about-title{
+    text-transform: uppercase;
+}
+
+.location,.social,.about{
+    width: 35%;
+}
+
+.location-link{
+    text-decoration: none;
+    color: #fff;
+}
+
+.location-link:hover{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.location-link, .about-description{
+    display: inline-block;
+    margin-top: 29px;
+}
+
+.about-description{
+    width: 85%;
+}
+
+
+.social-icons{
+    display: flex;
+    margin-top: 49px;
+    column-gap: 27px;
+    justify-content: center;
+}
+
+.social-icons a:hover{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.social-icons a:active{
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.copyright{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    text-align: center;
+    color: #fff;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #2C3154;
+}
+
+.copyright span{
+    color: rgba(255, 255, 255, 0.5);
 }
