@@ -66,17 +66,6 @@ body {
 
 }
 
-.buttonFavorite {
-    width: 370px;
-    height: 80px;
-    font-size: 24px;
-    font-weight: 900;
-    line-height: 28.18px;
-    text-align: center;
-    border: 1px solid white;
-
-}
-
 /*FEATURES*/ 
 
 .features {
@@ -227,12 +216,12 @@ body {
     margin-top: 10px;
 }
 
-.download-btn{
+.btn{
     display: flex;
     justify-content: center;
 }
 
-.download-btn button{
+.btn button{
     font-family: Raleway;
     font-size: 24px;
     font-weight: 900;
@@ -245,11 +234,11 @@ body {
     margin-top: 47px;
 }
 
-.download-btn button:hover{
+.btn button:hover{
     background: #E71414;
 }
 
-.download-btn button:active{
+.btn button:active{
     box-shadow: 4px 4px 30px 0px #FF4343;
     background: #FF4343;
 }
