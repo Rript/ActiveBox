@@ -58,8 +58,10 @@ body {
 /*FAVORITE*/ 
 .favorite-section {
     background: url('../img/headerbg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin: 0 auto;
+    background-position: center;
 }
 
 .favorite {
