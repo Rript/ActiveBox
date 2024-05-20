@@ -26,10 +26,11 @@ body {
 
 .carousel-background{
     display: flex;
-    background: #5C3249;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    background: #5C3249;
     width: 51%;
+    align-items: center;
 }
 
 .carousel-images{
@@ -175,7 +176,6 @@ body {
     width: 85%;
 }
 
-
 .social-icons{
     display: flex;
     margin-top: 49px;
@@ -205,4 +205,44 @@ body {
 
 .copyright span{
     color: rgba(255, 255, 255, 0.5);
+}
+
+/* our team */
+
+.team-content{
+    display: flex;
+    min-height: 850px;
+    align-items: center;
+}
+
+.person-name{
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.18px;
+    color: #2d3033;
+    margin-top: 40px;
+}
+
+.person-activity{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    color: #ff4343;
+    text-transform: uppercase;
+    margin-top: 6px;
+}
+
+.person-description{
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.13px;
+    color: rgba(108, 114, 121, 1);
+    margin-top: 18px;
+}
+
+.person-social_link{
+    margin-top: 38px;
 }
